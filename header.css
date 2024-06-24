@@ -1,0 +1,120 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+/* Navigasi */
+header {
+  background-color: #65b7d8;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.container img {
+  width: 10%; /* Sesuaikan dengan ukuran logo */
+  height: 10%; /* Biarkan tinggi otomatis sesuai aspek rasio */
+  margin-right: 710px;
+}
+
+nav {
+  display: flex;
+  float: right;
+  margin-top: 10px;
+}
+
+
+.navbar {
+  list-style-position: inherit;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  margin-left: 30px;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline;
+  margin-left: 10px;
+}
+
+.navbar li:first-child {
+  margin-right: 0px; /* Menggeser navbar ke kanan sedikit */
+}
+
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* informasi */
+.info {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 65px;
+}
+
+.info p {
+  margin: -18px 0px 0px 280px;
+}
+
+.dropdown-kategori {
+  position: absolute;
+  display: none;
+  width: fit-content;
+  height: fit-content;
+  margin: -7px 0px 0px 268.5px;
+}
+
+.dropdown-kategori ul li {
+  text-align: center;
+  margin: 10px;
+}
+
+.dropdown-kategori ul li a {
+  text-decoration: none;
+  color: rgb(20, 215, 124);
+}
+
+.dropdown-kategori ul li a:hover {
+  color: #0004f7;
+}
+
+.dropdown-kategori ul .a::marker {
+  color: rgb(10, 10, 10, 0%);
+}
+
+.dropdown-kategori ul .b::marker {
+  color: rgb(10, 10, 10, 0%);
+}
+
+.info:hover + .dropdown-kategori {
+  display: block;
+}
+
+.dropdown-kategori:hover {
+  display: block;
+}
+
+body {
+  margin: 0;
+  padding-top: 80px; /* Sesuaikan dengan tinggi header */
+}

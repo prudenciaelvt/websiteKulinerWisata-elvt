@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style_ml.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <title>Informasi</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="img/logo_lamongan.png" />
+        <nav>
+          <div class="menu-toggle" onclick="toggleMenu()"></div>
+          <ul class="navbar" id="navbar">
+            <li><a href="../index.php" id="home">Home</a></li>
+            <li><a href="../wisata.php" id="wisata">Wisata</a></li>
+            <li><a href="../kuliner.html">Kuliner</a></li>
+          </ul>
+          <div class="info">
+            <p id="informasi">informasi</p>
+          </div>
+          <div class="dropdown-kategori">
+            <ul>
+              <li class="a"><a href="map_lamongan.html">map lamongan</a></li>
+              <li class="b"><a href="panduan_wisata.php">panduan wisata</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="main">
+      <h1 style="text-align: center; margin-bottom: 20px">
+        PETA KOTA LAMONGAN
+      </h1>
+      <iframe
+        style="display: block; margin: auto"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63344.444164146604!2d112.3529883797633!3d-7.122780456112073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77f0d41da5eb91%3A0x4027a76e3531440!2sLamongan%2C%20Kec.%20Lamongan%2C%20Kabupaten%20Lamongan%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1684994405760!5m2!1sid!2sid"
+        width="1200"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <div
+      style="
+        margin-top: 100px;
+        background-image: url(img/svg.png);
+        background-size: contain;
+        height: 330px;
+      "
+    >
+      <div
+        style="
+          display: flex;
+          gap: 50px;
+          justify-content: center;
+          padding-top: 140px;
+        "
+      >
+        <div class="find">
+          <h3>FIND US</h3>
+          <br />
+
+          <p>
+            Jl. Rungkut Madya No.1, Gn. Anyar, Kec. Gn. Anyar, <br />Surabaya,
+            Jawa Timur 60294
+          </p>
+          <br />
+
+          <div class="item">
+            <div class="item_a">
+              <i class="fa-brands fa-facebook"></i>
+              <p>lamongan megilan</p>
+            </div>
+
+            <div class="item_b">
+              <i class="fa-brands fa-instagram"></i>
+              <p>lamoganmegilan</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact">
+          <h3>CONTACT US</h3>
+          <br />
+
+          <p>
+            Dinas Kebudayaan, Kepemudaan dan Olahraga <br />
+            serta Pariwisata Kabupaten Lamongan
+          </p>
+          <br />
+
+          <div class="conten">
+            <div class="conten_a">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>
+                Jl. Sunan Giri, Tumenggungbaru, Tumenggungan, <br />
+                Kec. Lamongan, Kabupaten Lamongan, Jawa Timur 62214
+              </p>
+            </div>
+            <div class="conten_b">
+              <i class="fa-solid fa-phone"></i>
+              <p>08573332196</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <p>Hak Cipta &copy; Lamongan 2K23</p>
+      </div>
+    </footer>
+  </body>
+</html>

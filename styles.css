@@ -1,0 +1,91 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4cae4c;
+  }
+  
+  .makanan {
+    max-width: 30%; /* Mengatur lebar maksimum gambar */
+    height: auto; /* Mengatur tinggi agar gambar tidak terdistorsi */
+    display: block; /* Agar gambar menjadi blok dan dapat ditata */
+    margin: 20px auto; /* Memberi jarak di atas dan di bawah gambar */
+  }
+  
+  /* Detail Makanan */
+  #detail-content {
+    padding: 50px 0;
+  }
+  
+  #detail-content .container {
+    max-width: 800px; /* Lebar kontainer */
+    margin: 0 auto; /* Posisi di tengah */
+    text-align: left; /* Teks kiri */
+  }
+  
+  #detail-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  #detail-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  #detail-content h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  #detail-content h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #detail-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #detail-content li {
+    margin-bottom: 10px;
+  }
+  
+  #detail-content iframe {
+    margin: 20px auto; /* Memberi jarak atas dan bawah dan posisi tengah */
+    display: block; /* Agar iframe menjadi blok */
+    max-width: 100%; /* Maksimum lebar sesuai kontainer */
+  }
+  

@@ -1,0 +1,99 @@
+/*detail wisata*/
+
+/*judul nama_wisata*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+.detail-card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: fit-content;
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.detail-card h2 {
+    color: #000000;
+    margin-top: 0;
+    text-align: center;
+    padding: 20px;
+}
+
+.detail-card img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+}
+
+.detail-card p {
+    color: #000000;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.detail-card p.alamat,
+.detail-card p.harga_tiket {
+    font-weight: bold;
+    color: #4CAF50;
+    text-align: center;
+}
+
+.detail-card p.deskripsi {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.detail-card p.garis_lintang,
+.detail-card p.garis_bujur {
+    font-style: italic;
+    color: #999;
+}
+
+button.more {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button.more:hover {
+    background-color: #45a049;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center; /* Mengatur posisi horizontal di tengah */
+    align-items: center; /* Mengatur posisi vertikal di tengah */
+    margin-top: 20px; /* Atur margin atas jika diperlukan */
+}
+
+.map-container iframe {
+    width: 100%; /* Lebar iframe sesuai dengan parent container */
+    max-width: 800px; /* Lebar maksimum jika parent container lebih lebar */
+    height: 500px; /* Tinggi iframe */
+}

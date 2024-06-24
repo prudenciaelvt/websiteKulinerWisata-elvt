@@ -1,0 +1,335 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+
+  }
+  
+  /* Navigasi */
+  header {
+    background-color: #65b7d8;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .container img {
+    width: 10%;
+    height: 10%;
+  }
+  
+  h1 {
+    margin: 0;
+    display: inline;
+  }
+  
+  nav {
+    display: inline;
+    float: right;
+    margin-top: 10px;
+  }
+  
+  .navbar {
+    list-style: none;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .navbar li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* informasi */
+  .info {
+    color: #612222;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .info p {
+    margin: -18px 0px 0px 280px;
+  }
+  
+  .dropdown-kategori {
+    margin-top: 10px;
+    position: absolute;
+    display: none;
+    width: fit-content;
+    height: fit-content;
+    margin: -7px 0px 0px 268.5px;
+    background-color: white;
+    border-radius: 7%;
+  }
+  
+  .dropdown-kategori ul li {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .dropdown-kategori ul li a {
+    text-decoration: none;
+    color: rgb(20, 215, 124);
+  }
+  
+  .dropdown-kategori ul li a:hover {
+    color: #0004f7;
+  }
+  
+  .dropdown-kategori ul .a::marker {
+    color: rgb(10, 10, 10, 0%);
+  }
+  
+  .dropdown-kategori ul .b::marker {
+    color: rgb(10, 10, 10, 0%);
+  }
+  
+  .info:hover + .dropdown-kategori {
+    display: block;
+  }
+  .dropdown-kategori:hover {
+    display: block;
+  }
+  
+  
+  /* Hero Section */
+  #hero {
+    background-image: url("img/la.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 200px 0;
+    color: #fff;
+  }
+  
+  #hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #f1f1f1;
+  }
+  .btn-2 {
+    font-size: 11px;
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 6px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-2:hover {
+    background-color: #2e2a2a;
+  }
+  
+  /* tentang lamongan section */
+  #tentangLamongan {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f4f4f4;
+  }
+  
+  #tentangLamongan h2, #tentangLamongan p {
+    margin: 0 0 20px;
+  }
+  
+  /* Flex container for Wisata and Kuliner sections */
+  .flex-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      padding: 20px 0;
+      padding-left: 10%;
+      padding-right: 5%;
+  }
+  
+  /* Wisata and Kuliner section styling */
+  #wisata, #kuliner {
+      width: 48%;
+      display: flex;
+      flex-direction: column;
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      box-sizing: border-box;
+      border-radius: 5%;
+  }
+  
+  .ttg-item {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .ttg-item img {
+    width: 90%;
+    height: 340px;
+    border-radius: 10%;
+  }
+  
+  .ttg-item h2 {
+    margin: 15px 0;
+  }
+  
+  .ttg-item p {
+    margin-bottom: 15px;
+  }
+  
+  .ttg-item .btn-2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  
+  /* ttg-2 section styling */
+  #ttg-2 {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    width: 100%;
+  }
+  
+  #ttg-2 .container {
+    width: 100px;
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #ttg-2 h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+  }
+  
+  .ttg-item1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 90%; /* Ensure full width within the max-width container */
+    margin: 0 auto;
+  }
+  
+  .ttg-item1 img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .ttg-item1 h4,
+  .ttg-item .deskripsi{
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  
+  .ttg-item1 .deskripsi {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    height: auto;
+    overflow: visible;
+  }
+  
+  #read-more-btn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  #read-more-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  /* Responsive styling */
+  @media screen and (max-width: 768px) {
+    #ttg-2 .container {
+        width: 90%;
+    }
+  
+    .ttg-item1 {
+        padding: 15px;
+    }
+  
+    #ttg-2 h2 {
+        font-size: 1.5em;
+    }
+  
+    .ttg-item1 h4 {
+        font-size: 1.2em;
+    }
+  
+    #read-more-btn {
+        font-size: 0.9em;
+    }
+  
+    #more-text {
+        font-size: 0.9em;
+    }
+  }
+  
+  
+  /* Footer */
+  footer {
+    background-color: #7cc8e7;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
+  

@@ -1,0 +1,316 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigasi */
+header {
+  background-color: #65b7d8;
+  color: #fff;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container img {
+  width: 10%;
+  height: 10%;
+}
+
+h1 {
+  margin-top: 40px;
+  text-align: center;
+  padding: 1%;
+  margin-bottom: 40px;
+}
+
+nav {
+  display: inline;
+  float: right;
+  margin-top: 10px;
+}
+
+.menu-toggle {
+  width: 40px;
+  height: 40px;
+  background-image: url("img/soto.jpg");
+  background-size: cover;
+  cursor: pointer;
+  display: none;
+}
+
+.navbar {
+  list-style: none;
+}
+
+.navbar li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* informasi */
+.info {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.info p {
+  margin: -18px 0px 0px 280px;
+}
+
+.dropdown-kategori {
+  position: absolute;
+  display: none;
+  width: fit-content;
+  height: fit-content;
+  margin: -7px 0px 0px 268.5px;
+}
+
+.dropdown-kategori ul li {
+  text-align: center;
+  margin: 10px;
+}
+
+.dropdown-kategori ul li a {
+  text-decoration: none;
+  color: rgb(20, 215, 124);
+}
+
+.dropdown-kategori ul li a:hover {
+  color: #0004f7;
+}
+
+.dropdown-kategori ul .a::marker {
+  color: rgb(10, 10, 10, 0%);
+}
+
+.dropdown-kategori ul .b::marker {
+  color: rgb(10, 10, 10, 0%);
+}
+
+.info:hover + .dropdown-kategori {
+  display: block;
+}
+
+.dropdown-kategori:hover {
+  display: block;
+}
+
+/* Hero Section */
+#hero {
+  background-image: url("img/la.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 200px 0;
+  color: #fff;
+}
+
+#hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #333;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #f1f1f1;
+}
+
+.btn-2 {
+  font-size: 11px;
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 6px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 2px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-2:hover {
+  background-color: #2e2a2a;
+}
+
+/* tentang lamongan section */
+#ttg {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.ttg-item {
+  display: inline-block;
+  margin: 30px;
+  text-align: center;
+}
+
+.ttg-item img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.ttg-item h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.ttg-item p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#ttg-2 {
+  padding-top: 30px;
+  padding-bottom: 0, 5px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.ttg-item {
+  display: inline-block;
+  margin: 30px;
+  text-align: center;
+}
+
+.ttg-item img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.ttg-item h4 {
+  font-size: 18px;
+  margin-top: 7px;
+  margin-bottom: 13px;
+}
+
+.ttg-item p {
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+#read-more-btn {
+  background-color: #504f4f;
+  color: #fff;
+  border: none;
+  padding: 7px 15px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#read-more-btn:hover {
+  background-color: #6b6666;
+}
+
+/* Footer */
+footer {
+  background-color: #7cc8e7;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Kuliner */
+#page-tittle {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card {
+  width: 300px;
+  height: 355px;
+  border-radius: 20px;
+  overflow: hidden;
+  /*border: 8px solid #6090a3;*/
+  position: relative;
+  margin-top: 50px;
+  margin-left: 48px;
+  margin-right: 48px;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 10px 10px 8px rgb(158, 157, 157);
+}
+
+.card img {
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-body {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background: #34343469;
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  transition: 1s;
+  justify-content: center;
+}
+
+.card:hover .card-body {
+  right: 0;
+}
+
+.food-info {
+  color: #fff;
+  font-size: 12px;
+  line-height: 25px;
+  margin: 35px 0;
+  font-weight: 400;
+}
+
+.food-name {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer {
+  margin-top: 50px;
+}

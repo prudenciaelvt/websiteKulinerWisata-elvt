@@ -1,0 +1,107 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navigasi */
+  header {
+    background-color: #65b7d8;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .container img {
+    width: 10%;
+    height: 10%;
+  }
+  
+  nav {
+    display: inline;
+    float: right;
+    margin-top: 10px;
+  }
+
+  .navbar {
+    list-style: none;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .navbar li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+
+  /*utama */
+  #ttg {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .Judul{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+  }
+  
+  .gambar{
+    display: block;
+    text-align: center;
+    width:auto;
+    height:100%
+  }
+
+  .keterangan{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .Peta h1{
+    padding-bottom: 10px;
+  }
+
+  .deskripsi{
+    font-family:cursive;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+  }
+  
+  .deskripsi h1{
+    font-family: sans-serif;
+    text-align: left;
+    padding-bottom: 5px;
+  }
+
+  .Peta{
+    font-family: sans-serif;
+    text-align: center;
+  }
+  /* Footer */
+  footer {
+    background-color: #6090a3;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* deskripsi */
+  
+
+  

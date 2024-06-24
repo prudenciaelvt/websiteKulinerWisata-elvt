@@ -1,0 +1,78 @@
+/* General styling for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for container */
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    align-items: center;
+}
+
+.container h2 {
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+}
+
+/*style form*/
+.container form input[type="text"] {
+    margin-top: 5%;
+    margin-bottom: 5px;
+    padding: 10px;
+    max-width: 100%;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling for error and success messages */
+.error-msg {
+    color: #d9534f;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+}
+
+.success-msg {
+    color: #5cb85c;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+}
+
+/* Styling for buttons */
+.confirm-btn, .cancel-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.confirm-btn {
+    background-color: #ce2c23;
+    color: #fff;
+}
+
+.cancel-btn {
+    margin-top: 5%;
+    background-color: #ccc;
+    color: #333;
+
+}
+
+.confirm-btn:hover, .cancel-btn:hover {
+    opacity: 0.8;
+}
